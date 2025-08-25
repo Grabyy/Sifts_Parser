@@ -9,7 +9,7 @@ with the goal of building datasets for predicting **3D peptide structures**.
 ## Features
 
 - Parse **SIFTS XML** files directly from the [EBI SIFTS database](https://www.ebi.ac.uk/pdbe/docs/sifts/).
-- Save information in a readable tsv file.
+- Save information in a readable tsv file that could be easily processed.
 - Uses only **standard Python 3 libraries** (no external dependencies).
 - Process files directly from `curl`/`gunzip` pipelines — no need to save intermediate files.
 
