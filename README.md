@@ -29,7 +29,7 @@ conda activate sifts_parser
 
 ## Usage
 
-The idea inspired to &Github& was to curl the xml without saving it, then extract it and feed it to my script :
+The idea was to curl the xml without saving it, then extract it and feed it to my script :
 
 ```bash
 curl -s https://ftp.ebi.ac.uk/pub/databases/msd/sifts/xml/1xyz.xml.gz | gunzip | python sifts_parse.py
